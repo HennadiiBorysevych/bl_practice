@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- The above form looks like this -->
+    <form>
+      <div class="row">
+        <div class="six columns">
+          <label for="exampleEmailInput">Your email</label>
+          <input
+            class="u-full-width"
+            type="email"
+            placeholder="test@mailbox.com"
+            id="exampleEmailInput"
+          />
+        </div>
+        <div class="six columns">
+          <label for="exampleEmailInput">Your name</label>
+          <input
+            class="u-full-width"
+            type="text"
+            placeholder="name"
+            id="exampleEmailInput"
+          />
+        </div>
+      </div>
+      <label for="exampleMessage">Message</label>
+      <textarea
+        class="u-full-width"
+        placeholder="Hi Dave …"
+        id="exampleMessage"
+      ></textarea>
+      <input class="button-primary" type="submit" value="Submit" />
+    </form>
+    <h2 style="color: green">
+      Hello there, You have recived a message from ${userName}
+    </h2>
+    <p>Contact email is ${userEmail}</p>
+    <p>Message: ${userMessage}</p>
+    <p style="color: blue">Thank you</p>
+  </body>
+</html>

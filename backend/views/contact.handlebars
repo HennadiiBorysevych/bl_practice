@@ -1,0 +1,37 @@
+<h1>Contact</h1>
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+<form method="post" action="send">
+  <div class="row">
+    <div class="six columns">
+      <label for="exampleEmailInput">Your email</label>
+      <input
+        class="u-full-width"
+        type="email"
+        name="userEmail"
+        placeholder="test@mailbox.com"
+        id="exampleEmailInput"
+      />
+    </div>
+    <div class="six columns">
+      <label for="exampleEmailInput">Your name</label>
+      <input
+        class="u-full-width"
+        type="text"
+        name="userName"
+        placeholder="name"
+        id="exampleEmailInput"
+      />
+    </div>
+  </div>
+  <label for="exampleMessage">Message</label>
+  <textarea
+    class="u-full-width"
+    name="userMessage"
+    placeholder="Hi Dave …"
+    id="exampleMessage"
+  ></textarea>
+  <input class="button-primary" type="submit" value="Submit" />
+</form>
